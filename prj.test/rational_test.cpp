@@ -1,5 +1,4 @@
-#include "rational.hpp"
-
+#include "../prj.labs/rational/rational.hpp"
 #include <sstream>
 #include <stdexcept>
 
