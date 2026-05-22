@@ -1,13 +1,2 @@
-add_library(rational
-        rational.hpp)
-target_sources(rational
-    PRIVATE
-        rational.cpp
-
-    PUBLIC
-        FILE_SET rational
-        TYPE HEADERS
-        BASE_DIRS .
-        FILES rational.hpp
-        
-)
+add_library(rational rational.cpp rational.hpp)
+target_include_directories(rational PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../..)
