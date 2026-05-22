@@ -1,13 +1,10 @@
 cmake_minimum_required(VERSION 3.15)
-project(marinin-m-a-25-17)
+project(misis_rational_project)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(rational rational.cpp rational.hpp)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-target_include_directories(rational PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-
-add_executable(rational_test rational_test.cpp)
-
-target_link_libraries(rational_test rational)
+add_subdirectory(prj.labs)
+add_subdirectory(prj.test)
