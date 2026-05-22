@@ -1,5 +1,6 @@
 #include <iostream>
-#include "rational.hpp"
+#include "prj.labs/rational/rational.hpp"
+#include "prj.labs/complex/complex.hpp"
 
 int main() {
     try {
