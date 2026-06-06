@@ -86,4 +86,4 @@ inline std::istream& operator>>(std::istream& istrm, Complex& rhs) noexcept {
   return rhs.ReadFrom(istrm);
 }
 
-#endif //MARININ_M_A_25_17_RATIONAL_HPP
+#endif //MARININ_M_A_25_17_COMPLEX_HPP
