@@ -1,6 +1,6 @@
 #pragma once
-#ifndef MARININ_M_A_25_17_RATIONAL_HPP
-#define MARININ_M_A_25_17_RATIONAL_HPP
+#ifndef MARININ_M_A_25_17_COMPLEX_HPP
+#define MARININ_M_A_25_17_COMPLEX_HPP
 
 #include <iosfwd>
 
