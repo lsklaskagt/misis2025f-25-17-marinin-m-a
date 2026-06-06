@@ -10,4 +10,10 @@ add_subdirectory(prj.labs)
 add_subdirectory(prj.test)
 
 add_executable(main_app main.cpp)
-target_link_libraries(main_app rational complex)
+target_link_libraries(main_app rational complex arrayd)
+
+cmake_minimum_required(VERSION 3.15)
+project(misis_comprehensive_project)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
